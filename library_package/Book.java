@@ -1,4 +1,7 @@
 // Class used to create class instance of a Book
+
+package library_package;
+
 public class Book {
     
     // Book Attributes
