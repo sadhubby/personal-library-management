@@ -8,7 +8,11 @@ public class Account {
     private String accountPassword;
 
     //Setters and getters
-
+    public Account(String accountUsername, String accountEmail, String accountPassword){
+        this.accountUsername = accountUsername;
+        this.accountEmail = accountEmail;
+        this.accountPassword = accountPassword;
+    }
     public void setAccountUsername (String acquiredAccountUsername){
         this.accountUsername = acquiredAccountUsername;
     }
@@ -32,4 +36,5 @@ public class Account {
     public String getAccountPassword(){
         return accountPassword;
     }
+
 }
