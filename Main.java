@@ -1,7 +1,10 @@
 import java.util.*;
 import library_package.*;
-class Main{
+public class Main{
 public static void main(String[] args){
+    
+    MainFrame myFrame = new MainFrame();
+    myFrame.initialize();
 
         Scanner sc = new Scanner(System.in);
         List<Book> library = new ArrayList<>();       
